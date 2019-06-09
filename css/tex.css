@@ -1,0 +1,163 @@
+
+
+#body_header h1 {
+	text-align: center;
+	margin-top: 1px;
+	padding-top: 30px;
+	color: white;
+	font-size: 3em;
+}
+
+#Welcome{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+
+
+#intro_para{
+	color:black;
+	line-height: 170%;
+}
+section{
+	width: 100%;
+	margin:auto;
+}
+section h2{
+		font-weight: bold;
+		text-align: center;
+}
+table{
+	width: 100%;
+}
+table td{
+	border: 2px solid ;
+	padding:20px;
+	color: black;
+}
+table, td{
+	border-collapse: collapse;
+}
+
+tr i{
+	color: white;
+	width: 50px;
+	font-size: 23px !important;
+}
+h2 i{
+	color: white;
+	width: 50px;
+	font-size: 30px !important;
+}
+
+hr{
+	height: 1px;
+	border: none;
+	background-color: black;
+	border: 2px solid ;
+	padding:10px;
+	
+}
+.main_section{
+	margin-bottom: 45px;
+}
+.main_section h2{
+	font-weight: normal;
+	width:50%;
+	padding-bottom: 70px;
+	float: left;
+	color: black;
+}
+.main_section p a{
+	text-decoration: none;
+	color: grey;
+}
+.main_section p a:hover{
+	text-decoration: underline;
+}
+.main_section::after{
+	content: "";
+	clear:both;
+	display: block;
+}
+#start{
+	text-align: center;
+	font-size: 20px;
+	position: relative;
+	left: 40%;
+	margin-bottom: 30px;
+	text-decoration: none;
+	color: grey;
+	font-weight: normal;
+}
+@media screen and (max-width: 800px){
+	#logo{
+	display: none;
+	}
+	#threeLine{
+		display: block;	
+	}
+
+	#threeLine:hover, #close:hover{
+		color: black;
+		cursor:pointer;
+	}
+	
+	#navUl{
+		display: none;
+	}
+	#body_header h1{
+		font-size: 2em;
+	}
+	.main_section{
+		margin-bottom: 20px;
+		background-color: white;
+		border-radius: 3px;
+	}
+	hr{
+		display: none;
+	}	
+	#intro_para{
+		padding:15px;
+	}
+	table{
+		padding: 10px;
+	}
+	table, td{
+	border-collapse: separate;
+	}
+	table td{
+	border:1px solid grey;
+	padding:10px;
+	border-right-style:solid;
+	border-left-style:solid;
+	}
+	tr i{
+	color: #4f9973;
+	width: 50px;
+
+	}
+	.main_section h2{
+		float:none;
+		width: 95%;
+		margin:auto;
+		font-size: 1.5em;
+		padding-bottom:0px;
+		/*border:1px solid black;*/
+		padding-top:10px;
+	}
+	.sectionH2 i{
+		display: none;
+	}
+	.sub_topic{
+		/*margin-left: 2em;*/
+		/*border:1px solid black;*/
+		width: 95%;
+		margin:auto;
+		padding-top: 20px;
+	}
+	.sub_topic_last{
+		padding-bottom: 25px;
+	}
+}

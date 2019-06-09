@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	 	<title>Networking</title>
+	 	<link rel="stylesheet" type="text/css" href= "css/all.css">
+	 	<link rel="stylesheet" type="text/css" href="css/lessons.css">
+	    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+	 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+	</head>
+
+	<body>
+
+		<header>
+			<figure>
+				<i id = "threeLine" onclick = "displayMenu()" class="material-icons">dehaze</i>
+				<i id = "close" onclick = "closeMenu()" class="material-icons">close</i>
+                 <a href="index.html"><i id = "logo" class="material-icons">radio_button_checked</i></a>
+				<div id = "Welcome"> Welcome to <a href="index.html" title="pin">PIN</a></div>
+			</figure>
+			<nav>
+				<ul id = "navUl" class="clearfix">
+					<li><a class="navA" href="pro.html">Programming 1</a></li>
+					<li><a class="navA" href="math.html">Mathematics for Computing</a></li>
+					<li><a class="navA" href="networking.html">Networking</a></li>
+					<li><a class="navA" href="se.html">Software Engineering</a></li>
+					<li><a class="navA" href="quiz.html">Quizzes</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<header id="body_header">
+				<h1>Networking</h1>
+				
+				</div>
+			</header>
+			<button id="expandBtn" onclick="expand()">&#9654;</button>
+			<button id="collapseBtn" onclick="collapse()">&#9664;</button>
+			<!--Left Side-->
+			<aside>
+				<h3>Content</h3>
+				<p>Essentials of Networking</p>
+				<ul>
+					<li><a href="#" onclick = "replace(this)" id="link1">Moving Data over a network</a></li>
+					<li><a href="#" onclick = "replace(this)" id="link2">Structure Cabling</a></li>
+					<li><a href="#">Patch Cables</a></li>
+					<li><a href="#">Networking tools</a></li>
+				</ul>
+				<p>Local Area Networking</p>
+				<ul>
+					<li><a href="#">Introduction to TCP/IP</a></li>
+					<li><a href="#">Dynamic IP addressing</a></li>
+					<li><a href="#">Special IP addressing</a></li>
+					<li><a href="#">Ping and ipconfig</a></li>
+				</ul>
+				<p>Wireless Networking</p>
+				<ul>
+					<li><a href="#">Wireless Network Hardware</a></li>
+					<li><a href="#">Wifi Standards</a></li>
+					<li><a href="#">Basic WAP setup</a></li>
+					<li><a href="#">Wireless Encryption</a></li>
+				</ul>
+				<p>The Internet</p>
+				<ul>
+					<li><a href="#">Dial uo connections</a></li>
+					<li><a href="#">Internet Tiers</a></li>
+					<li><a href="#">Broadband connections</a></li>
+					<li><a href="#">Wireless Internet connections</a></li>
+				</ul>
+			</aside>
+			<section class="clearfix">
+			<!--right side-->
+				<div id="content1">
+					<p id = "titlePara1">Networking</p>
+					<p>
+						Network computer devices that originate, route and terminate the data are called network nodes. Nodes can include hosts such as personal computers, phones, servers as well as networking hardware. Two such devices can be said to be networked together when one device is able to exchange information with the other device, whether or not they have a direct connection to each other. In most cases, application-specific communications protocols are layered 
+					</p>
+					<p>
+						Ethernet: The Ethernet protocol is by far the most widely used one. Ethernet uses an access method called CSMA/CD (Carrier Sense Multiple Access/Collision Detection). This is a system where each computer listens to the cable before sending anything through the network.
+					</p>
+					<p>
+						The most widely deployed type of network, LANs were designed as an alternative to the more expensive
+                         point-to-point connection. A LAN has high throughput for relatively low cost. LANs often rely on shared
+                         media, usually a cable, for connecting many computers. This reduces cost. The computers take turns
+                         using the cable to send data. LANs typically connect computers located in close physical proximity, i.e., all the computers in a building. Repeaters are used to join network segments when the distance spanned causes electrical signals to weaken. 
+					</p>
+				</div>
+
+			</section>
+		</main>
+		<!--footer-->
+		<footer>
+			<ul>
+				<li><a href="https://www.facebook.com" class="footerA" id="fb"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://www.twitter.com" class="footerA" id="twitter"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="http://www.youtube.com" class="footerA" id="youtube"><i class="fa fa-youtube"></i></a></li>
+				<li><a href="http://www.instagram.com" class="footerA" id="ig"><i class="fa fa-instagram"></i><a></li>
+			</ul>
+			<p id="copyright">&copy;All rights reserved. </p>
+		</footer>
+		
+	</body>
+</html>

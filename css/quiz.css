@@ -1,0 +1,185 @@
+
+#body_header{
+	position: relative;
+	
+	background-attachment: fixed;
+	height: 200px;
+}
+#Welcome{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+}
+#body_header h1 {
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 60px;
+	color: white;
+	font-size: 3em;
+}
+
+
+section{
+	width: 80%;
+	margin:auto;
+	/*text-align: center;*/
+}
+.form1 i, .form2 i{
+
+	margin-top: 0px;
+	/*border:1px solid black;*/
+	display: none;
+}
+.ansExplanation{
+	display: none;
+}
+.form1, .form2, .form3{
+	border: none;
+	border-bottom-style: solid;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+}
+.form1 input, .form2 input, .form3 input{
+	margin-bottom: 15px;
+}
+#btn1, #btn2, #btn6{
+	margin-top: 20px;
+	color:black;
+}
+#result1, #result2, #result3{
+	/*color:black;*/
+	font-size: 4em;
+}
+#buttonsDiv{
+	text-align: center;
+	margin:20px;
+}
+#section1{
+	color:#000000;
+}
+#section2{
+	display: none;
+	color: #000000;
+	transition-delay: 2s;
+}
+#section3{
+	display: none;
+	color:#000000;
+}
+#dragNdrop1{
+	height: 50px;
+	border:1px solid #000000;
+	/*margin-bottom: 50px;*/
+}
+#form3 div{
+	height: 30px;
+	/*border:1px solid grey;*/
+	margin-bottom: 10px;
+	
+}
+#form3 div p{
+	margin:0px;
+	/*border:1px solid black;*/
+	cursor: crosshair;
+}
+#div1 p{
+	/*border:1px solid black;*/
+}
+#div2{
+	display: none;
+}
+#explan1, #explan2, #explan3, #explan4{
+	display: none;
+}
+.ans1{
+	/*padding: 5px;*/
+	/*border:1px solid black;*/
+	margin-bottom: 20px;
+	cursor: crosshair;
+}
+.ans1:active{
+	width: 40%;
+	background-color: ;
+	color:white;
+}
+#form4{
+	position: relative;
+	/*border:1px solid black;*/
+
+}
+#leftArrow{
+	position: absolute;
+	left:-50px;
+	top:40%;
+}
+#rightArrow{
+	position: absolute;
+	right: 0px;
+	top: 40%;
+}
+#leftArrow, #rightArrow{
+	border:none;
+	background-color: white;
+	color: #95362B;
+	font-size: 30px;
+	cursor: pointer;
+}
+#leftArrow:hover, #rightArrow:hover{
+	color: black;
+}
+#btn3, #btn4, #btn5{
+	color:#000000;
+}
+.form1 input[type = "radio"]{
+	/*-webkit-appearance: none;*/
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        outline: none;
+      /*box-shadow: 0 0 0 2px black;*/
+}
+@media screen and (max-width: 800px){
+	#logo{
+	display: none;
+	}
+	#threeLine{
+		display: block;	
+	}
+
+	#threeLine:hover, #close:hover{
+		color: black;
+		cursor:pointer;
+	}
+	
+	#navUl{
+		display: none;
+	}
+	#body_header h1{
+		font-size: 2.5em;
+	}
+	section{
+		width: 90%;
+	}
+	.form1, .form2, .form3{
+		background-color: white;
+		padding:1px 10px 10px 10px;
+		margin-bottom: 15px;
+		border:none;
+		border-radius: 3px;
+
+	}
+	#div1, #div2{
+		width: 50%;
+		margin: auto;
+	}
+	#leftArrow{
+		position: absolute;
+		left: 0px;
+	}
+	#leftArrow, #rightArrow{
+		background-color: white;
+	}
+	.ans1:active{
+		width: 100%;
+	}
+}

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	 	<title>Java Quizzes</title>
+	 	<link rel="stylesheet" type="text/css" href= "css/all.css">
+	 	<link rel="stylesheet" type="text/css" href="css/quiz.css">
+	 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+	 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+	</head>
+
+	<body>
+	<script type="text/javascript" src = "js/quiz.js"></script>
+
+		<header>
+			<figure>
+				<i id = "threeLine" onclick = "displayMenu()" class="material-icons">dehaze</i>
+				<i id = "close" onclick = "closeMenu()" class="material-icons">close</i>
+				<a href="index.html"><i id = "logo" class="material-icons">radio_button_checked</i></a>
+				<div id = "Welcome"> Welcome to <a href="index.html" title="pin">PIN</a></div>
+			</figure>
+			<nav>
+				<ul id = "navUl" class="clearfix">
+					<li><a class="navA" href="pro.html">Programming 1</a></li>
+					<li><a class="navA" href="math.html">Mathematics for Computing</a></li>
+					<li><a class="navA" href="networking.html">Networking</a></li>
+					<li><a class="navA" href="se.html">Software Engineering</a></li>
+					<li><a class="navA" href="#">Quizzes</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<header id="body_header">
+				<h1>Networking Assessments</h1>
+
+				</div>
+			</header>
+			<section id="section1" onchange="quickAns(event.target)">
+				<p>Quiz 1</p>
+					<form class="form1" id="form_1">
+						<p>Which device performs the function of determining the path that messages should take through internetworks?</p>
+						<input type="radio" name="answer" value="incorrect"><label>a DSL modem</label><br>
+						<input type="radio" name="answer" value="incorrect"><label>Router</label>
+						<i class="material-icons correctAns">done</i><br>
+						<input type="radio" name="answer" value="correct"><label>Web Server </label><br>
+						<input type="radio" name="answer" value="incorrect"><label>Firewall</label><br>
+						<div class="ansExplanation" id="explanation_1">
+							<p>
+							 Answer: Router <br>
+							 Details: The router is a networking device that forwards data packets between computer networks. Routers perform the traffic directing functions on the Internet. A data packet is typically forwarded from one router to another router through the networks that constitute the internetwork until it reaches its destination node.
+							</p>
+						</div>
+					</form>
+					<form class="form1" id="form_2">
+						<p>Which two Internet connection options do not require that physical cables be run to the building? </p>
+						<input type="radio" name="answer" value="correct"><label>Cellular</label>
+						<i class="material-icons correctAns">done</i><br>
+						<input type="radio" name="answer" value="incorrect"><label>Dedicated leased line</label><br>
+						<input type="radio" name="answer" value="incorrect"><label>DSL</label><br>
+						<input type="radio" name="answer" value="incorrect"><label>Router</label><br>
+						<div class="ansExplanation" id="explanation_2">
+							<p>
+							 Answer: Cellular <br>
+							 Details: Cellular connectivity requires the use of the cell phone network. Satellite connectivity is often used where physical cabling is not available outside the home or business.
+							</p>
+							
+						</div>
+					</form>
+					<form class="form1" id="form_3"> 
+						<p>Which term describes the state of a network when the demand on the network resources exceeds the available capacity?</p>
+						<input type="radio" name="answer" value="correct"><label>Congestion</label>
+						<i class="material-icons correctAns">done</i><br>
+						<input type="radio" name="answer" value="incorrect"><label>Convergence</label><br>
+						<input type="radio" name="answer" value="incorrect"><label>Optimization</label><br>
+						<input type="radio" name="answer" value="incorrect"><label>Synchronization</label><br>
+						<div class="ansExplanation" id="explanation_3">
+							<p>
+							 Answer: Congestion<br>
+							 Details: When the demand on the network resources exceeds the available capacity, the network becomes congested. A converged network is designed to deliver multiple communication types, such as data, video and voice services, using the same network infrastructure.
+							</p>
+							
+						</div>
+					</form>
+					<form class="form1" id="form_4">
+						<p>Which expression accurately defines the term bandwidth?</p>
+						<input type="radio" name="answer" value="correct"><label>a measure of the data carrying capacity of the media</label>
+						<i class="material-icons correctAns">done</i><br>
+						<input type="radio" name="answer" value="incorrect"><label>a method of limiting the impact of a hardware or software failure on the network</label><br>
+						<input type="radio" name="answer" value="incorrect"><label>a set of techniques to manage the utilization of network resources</label><br>
+						<input type="radio" name="answer" value="incorrect"><label>a state where the demand on the network resources exceeds the available capacity</label><br>
+						<div class="ansExplanation" id="explanation_4">
+							<p>
+							 Answer: a measure of the data carrying capacity of the media <br>
+							 Details: A method of limiting the impact of a hardware or software failure is fault tolerance. A measure of the data carrying capacity is bandwidth. A set of techniques to manage the utilization of network resources is QoS. A state where the demand on the network resources exceeds the available capacity is called congestion.
+							</p>
+						</div>
+					</form>					
+					<form class="form1" id="form_5">
+						<p>Which statement describes a characteristic of cloud computing?</p>
+						<input type="radio" name="answer" value="correct"><label>Applications can be accessed over the Internet by individual users or businesses using any device, anywhere in the world</label>
+						<i class="material-icons correctAns">done</i><br>
+						<input type="radio" name="answer" value="incorrect"><label>A business can connect directly to the Internet without the use of an ISP.</label><br>
+						<input type="radio" name="answer" value="incorrect"><label>Devices can connect to the Internet through existing electrical wiring</label><br>
+						<input type="radio" name="answer" value="incorrect"><label>Investment in new infrastructure is required in order to access the cloud.
+                        </label><br>
+						<div class="ansExplanation" id="explanation_5">
+							<p>
+							 Answer: Applications can be accessed over the Internet by individual users or businesses using any device, anywhere in the world <br>
+							 Details: Cloud computing allows users to access applications, back up and store files, and perform tasks without needing additional software or servers. Cloud users access resources through subscription-based or pay-per-use services, in real time, using nothing more than a web browser.
+							</p>
+						</div>
+					</form>
+					<form class="form1" id="form_6">
+						<p>Which statement describes the use of powerline networking technology?</p>
+					    <input type="radio" name="answer" value="incorrect"><label>A home LAN is installed without the use of physical cabling.</label><br>
+						<input type="radio" name="answer" value="correct"><label>A device connects to an existing home LAN using an adapter and an existing electrical outlet.</label>
+						 <i class="material-icons correctAns">done</i><br>
+						<input type="radio" name="answer" value="incorrect"><label>New “smart” electrical cabling is used to extend an existing home LAN.</label><br>
+						<input type="radio" name="answer" value="incorrect"><label>the internet</label><br>
+						<div class="ansExplanation" id="explanation_6">
+							<p>
+							 Answer: A device connects to an existing home LAN using an adapter and an existing electrical outlet.<br>
+							 Details: Powerline networking adds the ability to connect a device to the network using an adapter wherever there is an electrical outlet.​ The network uses existing electrical wiring to send data. It is not a replacement for physical cabling, but it can add functionality in places where wireless access points cannot be used or cannot reach devices.​
+							</p>
+						</div>
+					</form>
+					<button id="btn1" onclick="scoreCal()">Submit</button>
+					<p id="result1"></p>
+			</section>
+			<section id="section2">
+				<p>
+					Quiz 2
+				</p>
+					<form class="form2">
+						<p>What is the Internet?</p>
+						<input type="radio" name="answer" value="incorrect"><label>It is a network based on Ethernet technology.</label><br>
+						<input type="radio" name="answer" value="incorrect"><label>It provides network access for mobile devices.</label><br>
+						<input type="radio" name="answer" value="correct"><label>It provides connections through interconnected global networks</label>
+						<i class="material-icons correctAns">done</i><br>
+						<input type="radio" name="answer" value="incorrect"><label>It is a private network for an organization with LAN and WAN connections.</label><br>
+					</form>
+					<form class="form2">
+						<p>What type of network traffic requires QoS?</p>
+						<input type="radio" name="answer" value="incorrect"><label>Emails</label><br>
+						<input type="radio" name="answer" value="correct"><label>video conferencing</label>
+						<i class="material-icons correctAns">done</i><br>
+						<input type="radio" name="answer" value="incorrect"><label>Messaging</label><br>
+						<input type="radio" name="answer" value="incorrect"><label>Audio</label><br>
+					</form>
+					<form class="form2"> 
+						<p>What type of network must a home user access in order to do online shopping?</p>
+						<input type="radio" name="answer" value="incorrect"><label>the ethernet</label><br>
+						<input type="radio" name="answer" value="incorrect"><label>local area network</label><br>
+						<input type="radio" name="answer" value="incorrect"><label>modem</label><br>
+						<input type="radio" name="answer" value="correct"><label> the internet</label>
+						<i class="material-icons correctAns">done</i><br>
+					</form>
+					<form class="form2">
+						<p>A method defined in a superclass is redefined in a subclass with an identical
+						 method signature is called</p>
+						<input type="radio" name="answer" value="correct"><label>Method overloading</label>
+						<i class="material-icons correctAns">done</i><br>
+						<input type="radio" name="answer" value="incorrect"><label>Method overriding</label><br>
+						<input type="radio" name="answer" value="incorrect"><label>Dynamic binding</label><br>
+						<input type="radio" name="answer" value="incorrect"><label>Late binding</label><br>
+					</form>					
+					<form class="form2">
+						<p>A network administrator is implementing a policy that requires strong, complex passwords. Which data protection goal does this policy support? </p>
+						<input type="radio" name="answer" value="correct"><label>data confidentiality</label>
+						<i class="material-icons correctAns">done</i><br>
+						<input type="radio" name="answer" value="incorrect"><label>data integrity</label><br>
+						<input type="radio" name="answer" value="incorrect"><label>data quality</label><br>
+						<input type="radio" name="answer" value="incorrect"><label>data redundancy</label><br>
+					</form>
+					<form class="form2">
+						<p>Requiring strong, complex passwords is a practice that supports which network security goal?</p>
+						<input type="radio" name="answer" value="incorrect"><label>maintaining communication integrity</label><br>
+						<input type="radio" name="answer" value="correct"><label>ensuring data confidentiality</label>
+						 <i class="material-icons correctAns">done</i><br>
+						<input type="radio" name="answer" value="incorrect"><label>ensuring reliability of access</label><br>
+						<input type="radio" name="answer" value="incorrect"><label> ensuring redundancy</label><br>
+					</form>
+					<button id="btn2" onclick="correctAns()">Submit</button>
+					<p id="result2"></p>
+			</section>
+
+			<section id="section3">
+				<p>Quiz 3</p>
+
+				<form class="form3">
+					<p>Q1.Which IPv4 header field is responsible for defining the priority of the packet?</p>
+					<input id = "numList" type="number" name="correct" min="1" max="5"><br>
+					<p>1. traffic class</p>
+					<p>2. differentiated services</p>
+					<p>3. flags</p>
+					<p>4. traffic class</p>
+					
+				</form>
+			
+				<div class="form3">
+					<p>Q2. What IPv4 header field identifies the upper layer protocol carried in the packet?<p>
+					<select id = "selectId">
+						<option value="incorrect">select answer</option>
+						<option value="incorrect">Identification</option>
+						<option value="correct">Protocol</option>
+						<option value="incorrect">Version</option>
+						<option value="incorrect">Differentiated Services</option>
+					</select>
+					<div id="explan2">
+						<p>Answer: native</p>
+					</div>
+				</div>
+				<div class="form3" id="form3">
+					<p>
+					Q3.Which field in the IPv4 header is used to prevent a packet from traversing a network endlessly?
+					</p>
+					<div id="dragNdrop1" ondrop="onDrop(event)" ondragover="dragEnder(event)"></div>
+					<div id="dragNdrop2" ondrop="onDrop(event)" ondragover="dragEnder(event)">
+						<p id="p1" draggable = "true" ondragstart="dragStarter(event)">Time-to-Live</p>
+					</div>
+					<div id="dragNdrop3" ondrop="onDrop(event)" ondragover="dragEnder(event)">
+						<p id="p2" draggable = "true" ondragstart="dragStarter(event)">Sequence Number</p>
+					</div>
+					<div id="dragNdrop4" ondrop="onDrop(event)" ondragover="dragEnder(event)">
+						<p id="p3" draggable = "true" ondragstart="dragStarter(event)">Acknowledgment Number</p>
+					</div>
+					<div id="dragNdrop5" ondrop="onDrop(event)" ondragover="dragEnder(event)">
+						<p id="p4" draggable = "true" ondragstart="dragStarter(event)">Differentiated Services</p>
+					</div>
+					<div id="explan1">
+						
+					</div>
+				</div>
+				
+				<form class="form3">
+					<p>Q4.Which of this is a type of router interfaces?</p>
+					<input id = "numList" type="number" name="correct" min="1" max="5"><br>
+					<p>1. SVI</p>
+					<p>2. LAN</p>
+					<p>3. Telnet</p>
+					<p>4. DCHP</p>
+					<p>5. DSL</p>
+
+				</form>
+				    <div class="form3" id = "form4">
+					<button class="arrow" id="rightArrow" onclick="slider(this)">&#9654;</button>
+					<button class="arrow" id="leftArrow" onclick="slider(this)">&#9664;</button>
+					<div id="div1" onclick="getAns(event.target); leftSetter(event.target);">
+						<p>Q5. What is one advantage that the IPv6 simplified header offers over IPv4?</p>
+						<p id="ans1" class="ans1">smaller-sized header</p>
+						<p id="ans2" class="ans1">smaller-sized source and destination IP addresses</p>
+						<p id="ans3" class="ans1">efficient packet handling</p>
+						<p id="ans4" class="ans1">little requirement for processing checksums</p>
+						
+					</div>
+					<div id="div2" onclick="getAns(event.target); rightSetter(event.target);">
+						<p>Q6. What routing table entry has a next hop address associated with a destination network?</p>
+						<p id="ans5" class="ans1">remote routes</p>
+						<p id="ans6" class="ans1">directly-connected routes</p>
+						<p id="ans7" class="ans1">C and L source routes</p>
+						<p id="ans8" class="ans1">local routes</p>
+					
+					</div>
+				</div>
+				<button id="btn6" onclick="markCal(this)">Submit</button>
+				<p id="result3"></p>
+			</section>
+
+			<div id="buttonsDiv">
+				<button id="btn3" onclick="changeSection(this.id)">1</button>
+				<button id="btn4" onclick="changeSection(this.id)">2</button>
+				<button id="btn5" onclick="changeSection(this.id)">3</button>
+			</div>
+		</main>
+		<footer>
+			<ul>
+				<li><a href="https://www.facebook.com" class="footerA" id="fb"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://www.twitter.com" class="footerA" id="twitter"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="http://www.youtube.com" class="footerA" id="youtube"><i class="fa fa-youtube"></i></a></li>
+				<li><a href="http://www.instagram.com" class="footerA" id="ig"><i class="fa fa-instagram"></i><a></li>
+			</ul>
+			<p id="copyright">&copy; All rights reserved.</p>
+		</footer>
+		
+	</body>
+</html>	

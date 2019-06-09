@@ -1,0 +1,92 @@
+
+#index_img{
+	background-image: url("../img/Webp.net-gifmaker.gif");
+	background-size: 800px 700px;
+	background-attachment: fixed;
+	height: 500px;
+}
+
+#id1{
+	text-align: center;
+	font-size: 4em;
+	font-weight: bold;
+	color:#020201;
+}
+#Welcome{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+}
+.gallery{
+	width: 50%;
+	float: left;
+	text-align:center;
+}
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.gallery_img{
+	width: 30%;
+	height: 20%;
+	margin-top: 20px;
+}
+.gallery p{
+	max-width: 70%;
+	margin: auto;
+	padding-bottom: 20px;
+	color: blue;
+}
+.gallery a{
+	display: block;
+	text-decoration: none;
+	font-size: 2em;
+	color:#3c3f3f;
+	max-width: 50%;
+	margin:auto;
+}
+.gallery a:hover{
+	text-decoration: underline;
+}
+@media screen and (max-width: 800px){
+	#logo{
+	display: none;
+	}
+	
+	#id1{
+		font-size: 35px;
+	}
+	#threeLine{
+		display: block;	
+	}
+
+	#threeLine:hover, #close:hover{
+		color: black;
+		cursor:pointer;
+	}
+	
+	#navUl{
+		display: none;
+	}
+
+	.gallery{
+		background-color: white;
+		clear:both;
+		width: 100%;	
+		margin-top: 10px;
+		border-radius: 3px;
+		border-color: grey;
+	}
+	section{
+		max-width: 90%;
+		margin: auto;
+	}
+	footer{
+		margin-top: 20px;
+
+	}
+	.footerA{
+		color:#3c3f3e;
+	}
+}
